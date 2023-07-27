@@ -11,7 +11,7 @@
                </div>
                <div class="col-md-6 d-flex align-items-center justify-content-canter">
                    <div class="img">
-                       <img src="images/home_home_bg_2.png" alt="">
+                       <img src="images/home_home_bg_2.png" >
                    </div>
                </div>
            </div>
