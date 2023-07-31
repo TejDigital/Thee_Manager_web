@@ -16,7 +16,6 @@
 <body>
 
     <header class="header">
-
         <div class="header-inner">
             <nav class="top_nav" id="top_nav">
                 <div class="container-fluid">

@@ -18,7 +18,7 @@
        </div>
    </section>
    <section class="home_our_VMV">
-       <div class="container">
+       <div class="container py-3">
            <div class="row">
                <div class="col-md-4 p-1">
                    <div class="box">
@@ -470,7 +470,7 @@
            </div>
        </div>
    </section>
-   <section class="gallery" id="gallery">
+    <section class="gallery" id="gallery">
        <div class="container">
            <div class="row">
                <div class="col-md-12">
