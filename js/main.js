@@ -56,3 +56,37 @@ $(function () {
       },
     },
   });
+
+  // --------------------carousel_for_testimonial------------
+$(".owl_testimonial").owlCarousel({
+  autoplay: true,
+  slideSpeed: 3000,
+  autoplayTimeout: 3000,
+  autoplayHoverPause: true,
+  items: 1,
+  loop: true,
+  rtl: false,
+  mouseDrag: true,
+  nav: false,
+  navText: [
+    '<i class="fa fa-arrow-left"></i>',
+    '<i class="fa fa-arrow-right"></i>',
+  ],
+  // margin: 10,
+  dots: false,
+  dotsEach: true,
+  responsive: {
+    320: {
+      items: 1,
+    },
+    767: {
+      items: 1,
+    },
+    600: {
+      items: 1,
+    },
+    1000: {
+      items: 1,
+    },
+  },
+});

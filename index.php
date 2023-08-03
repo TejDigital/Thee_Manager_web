@@ -1,4 +1,7 @@
-   <?php require('includes/header.php') ?>
+   <?php session_start();
+
+    require('includes/header.php') ;
+    ?>
    <section class="home_home" id="home">
        <div class="container">
            <div class="row flex_change">
@@ -7,11 +10,11 @@
                    <h1> Your <span style="color: #000000;"></span>Trusted Partner for Exceptional <span style="color: #006CFF;">Tourism</span>,<span style="color: #00D058;">Hospitality</span>, <span style="color:#7000D4;">Education </span>& <span style="color:#FF9300;">Events</span> Solutions</h1>
                    <p>Unlocking Memorable Experiences</p>
                    <br>
-                 <a class="btn1" href="#services">Get Started <span><i class="fa-solid fa-arrow-right"></i></span> </a>
+                   <a class="btn1" href="#services">Get Started <span><i class="fa-solid fa-arrow-right"></i></span> </a>
                </div>
                <div class="col-md-6 d-flex align-items-center justify-content-canter">
                    <div class="img">
-                       <img src="images/home_home_bg_2.png" >
+                       <img src="images/home_home_bg_2.png">
                    </div>
                </div>
            </div>
@@ -470,7 +473,7 @@
            </div>
        </div>
    </section>
-    <section class="gallery" id="gallery">
+   <section class="gallery" id="gallery">
        <div class="container">
            <div class="row">
                <div class="col-md-12">
@@ -485,7 +488,7 @@
        <div class="container-fluid ">
            <div class="row p-0">
                <div class="col-md-12 p-0">
-                   <div class="gallery_slider_area text-center owl-carousel owl-theme" >
+                   <div class="gallery_slider_area text-center owl-carousel owl-theme">
                        <div class="box">
                            <div class="img">
                                <img src="images/gallery_img_1.png" alt="">
@@ -496,7 +499,7 @@
                            </div>
                        </div>
                        <div class="box">
-                            <div class="img">
+                           <div class="img">
                                <img src="images/gallery_img_1.png" alt="">
                            </div>
                            <div class="text">
@@ -571,6 +574,12 @@
                        </div>
                    </div>
                </div>
+               <?php
+                if (isset($_SESSION['thee_msg'])) {
+                    echo "<script> alert('" . $_SESSION['thee_msg'] . "') </script>";
+                    unset($_SESSION['thee_msg']);
+                }
+                ?>
                <div class="col-md-6">
                    <form action="./A_email/send_email.php" method="post">
                        <div class="form-group">
@@ -597,6 +606,66 @@
            </div>
        </div>
    </section>
+   <section class="testi_monial my-3">
+    <!-- <div class="testi_monial"> -->
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="header">
+                    <h1 class="text-center">What our Customer Say ?</h1>
+                    <p class="text-center">Customer Experiences with Thee Manager</p>
+                    </div>
+                    <div class="testimonial">
+                        <div class="owl_testimonial owl-carousel owl-theme">
+                            <div class="card">
+                                <div class="logo">
+                                    <img src="images/man.png" alt="">
+                                </div>
+                                <p class="text-center"><span>“</span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque labore inventore rerum? Beatae, repellat corrupti Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur? <span>„</span></p>
+                                <h5>Name Here</h5>
+                                <div class="stars">
+                                    <i class="fa-sharp fa-solid fa-star"></i>
+                                    <i class="fa-sharp fa-solid fa-star"></i>
+                                    <i class="fa-sharp fa-solid fa-star"></i>
+                                    <i class="fa-sharp fa-solid fa-star"></i>
+                                    <i class="fa-sharp fa-solid fa-star"></i>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="logo">
+                                    <img src="images/man.png" alt="">
+                                </div>
+                                <p class="text-center"><span>“</span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque labore inventore rerum? Beatae, repellat corrupti Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur? <span>„</span></p>
+                                <h5>Name Here</h5>
+                                <div class="stars">
+                                    <i class="fa-sharp fa-solid fa-star"></i>
+                                    <i class="fa-sharp fa-solid fa-star"></i>
+                                    <i class="fa-sharp fa-solid fa-star"></i>
+                                    <i class="fa-sharp fa-solid fa-star"></i>
+                                    <i class="fa-sharp fa-solid fa-star"></i>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="logo">
+                                    <img src="images/man.png" alt="">
+                                </div>
+                                <p class="text-center p-0"><span>“</span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque labore inventore rerum? Beatae, repellat corrupti Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur?<span>„</span></p>
+                                <h5>Name Here</h5>
+                                <div class="stars">
+                                    <i class="fa-sharp fa-solid fa-star"></i>
+                                    <i class="fa-sharp fa-solid fa-star"></i>
+                                    <i class="fa-sharp fa-solid fa-star"></i>
+                                    <i class="fa-sharp fa-solid fa-star"></i>
+                                    <i class="fa-sharp fa-solid fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <!-- </div> -->
+</section>
    <section class="footer">
        <div class="container">
            <div class="row">
@@ -657,9 +726,9 @@
                            <div class="col-md-12 d-flex align-items-center justify-content-end">
                                <div class="social_icons">
                                    <div class="icons d-flex align-items-center justify-content-end gap-4 py-2">
-                                   <a href="#"> <i class="fa-brands fa-facebook"></i></a>
-                               <a href="#">  <i class="fa-brands fa-instagram"></i></a>
-                               <a href="#">  <i class="fa-brands fa-twitter"></i></a>
+                                       <a href="#"> <i class="fa-brands fa-facebook"></i></a>
+                                       <a href="#"> <i class="fa-brands fa-instagram"></i></a>
+                                       <a href="#"> <i class="fa-brands fa-twitter"></i></a>
                                    </div>
                                    <div class="text">
                                        <span>Privacy Policy • Terms of Use</span>

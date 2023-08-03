@@ -577,7 +577,7 @@
 }
 
 .contact form .form-group label {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     font-weight: 600;
     line-height: 28px;
 }
@@ -589,7 +589,7 @@
     color: #000000;
     padding-left: 1rem;
     font-size: 1.3rem;
-    padding: 1rem;
+    padding: 0.6rem 1rem;
     font-weight: 300;
     line-height: 23px;
     border-radius: 6px;
@@ -630,6 +630,69 @@
     background-color: #000000;
     border-radius: 6px;
 }
+
+/* -------------------Testimonial------------ */
+.testi_monial{
+    position: relative;
+    padding: 2rem 0;
+    /* background-image: url(../images/customers.jpg); */
+    background-color: #3f3f3f;
+    background-size: cover;
+    background-position: center center;
+}
+.testi_monial::before{
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.7;
+    /* background-image: linear-gradient(to right, #6b6dd1, #8472d7, #9c76dc, #b27ae1, #c87fe4, #df7ed8, #f17ecb, #ff81be, #ff879f, #ff9782, #ffad6a, #fbc45f); */
+    /* background-color: #100e37c6; */
+}
+.testi_monial .header{
+    color: #fff;
+    z-index: 1;
+    position: relative;
+}
+.testi_monial .testimonial{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    padding: 2rem 0;
+}
+.testi_monial .owl_testimonial .card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    max-width: 700px;
+    margin: auto;
+    padding: 1rem 0;
+
+}
+.testi_monial .owl_testimonial .card .stars{
+    color: gold;
+}
+.testi_monial .owl_testimonial .card p span{
+    font-size: 2rem;
+    font-weight: 700;
+}
+.testi_monial .owl_testimonial .card .logo{
+    width: 60px;
+    aspect-ratio: 2;
+}
+.testi_monial .owl_testimonial .card .logo img{
+    width: 100%;
+    height: 100%;
+}
+.testi_monial .owl_testimonial .slick-dots{
+    display: flex;
+}
+
 
 /* --------------------Footer---------------------------- */
 .footer {
