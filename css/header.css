@@ -5,6 +5,28 @@
 	box-sizing: border-box;
 }
 
+/* ****************modal_button****************** */
+.click_btn_pop {
+display: flex;
+align-items: center;
+justify-content: center;
+border: 0;
+border-radius: 5px;
+padding: 0.4rem;
+}
+.click_btn_pop:hover{
+	background-color: #f9c108;
+}
+.click_btn_pop img{
+max-width: 20px;
+width: 100%;
+height: 100%;
+}
+.click_btn_pop span{
+font-size: 1rem;
+font-weight: 600;
+}
+
 body {
 	font-family: 'Montserrat', sans-serif;	position: relative;
 }
@@ -243,4 +265,11 @@ body {
 	.top_nav .top_nav_item p:nth-child(2){
 		display: block;
 	}
+}
+
+
+
+/* -----------------pop-model-------------- */
+.modal-backdrop{
+	display: none;
 }

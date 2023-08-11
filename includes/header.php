@@ -32,9 +32,9 @@
                                 </div>
                             </div>
                             <div class="top_nav_social d-flex align-items-center justify-content-evenly gap-4">
-                               <a href="#"> <i class="fa-brands fa-facebook"></i></a>
-                               <a href="#">  <i class="fa-brands fa-instagram"></i></a>
-                               <a href="#">  <i class="fa-brands fa-twitter"></i></a>
+                                <a href="#"> <i class="fa-brands fa-facebook"></i></a>
+                                <a href="#"> <i class="fa-brands fa-instagram"></i></a>
+                                <a href="#"> <i class="fa-brands fa-twitter"></i></a>
                             </div>
                         </div>
                         <!-- <div class="col-md-4 d-flex align-items-center justify-content-end">
@@ -74,12 +74,19 @@
                                 <a class="nav-link" href="#contact">Contact</a>
                             </li>
                         </ul>
-                        <!-- <div class="form-inline header_call_now my-2 my-lg-0">
-                            <a href="tel:9993840444" class="header-btn my-2 my-sm-0" type="submit">Call Now</a>
-                        </div> -->
+                        <div class="form-inline header_call_now my-2 my-lg-0">
+                            <!-- Button trigger modal -->
+                            <button type="button" class="click_btn_pop" data-bs-toggle="modal" data-bs-target="#pop_modal">
+                                <img src="./images/QR_code.svg" alt="">
+                                <span>Grihsevak</span>
+                            </button>
+                        </div>
                     </div>
                 </nav>
+
 
             </div>
         </div>
     </header>
+    
+             

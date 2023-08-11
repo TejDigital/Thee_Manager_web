@@ -4,6 +4,30 @@
     box-sizing: border-box;
 }
 
+/* **********************model************* */
+.modal-body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.modal-body a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 1.3rem;
+    font-weight: 600;
+    line-height: 28px;
+}
+.modal-body a:hover{
+    color: #006CFF;
+}
+.modal-header .btn_close{
+    color: red;
+    background: transparent;
+    border: 0;
+    font-size: 1.5rem;
+}
+
 .home_home {
     padding-top: 10rem;
     padding-bottom: 2rem;

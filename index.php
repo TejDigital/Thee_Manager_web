@@ -1,7 +1,28 @@
    <?php session_start();
 
-    require('includes/header.php') ;
+    require('includes/header.php');
     ?>
+   <!-- Modal -->
+   <div class="modal fade" id="pop_modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" style="position: relative;z-index:99;">
+       <div class="modal-dialog modal-dialog-centered">
+           <div class="modal-content">
+               <div class="modal-header">
+                   <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                   <button type="button" class="btn_close" data-bs-dismiss="modal" aria-label="Close"><i class="fa-solid fa-circle-xmark"></i></button>
+               </div>
+               <div class="modal-body">
+                   <img src="images/QR_code.svg" alt="">
+                   <a href="#!">Grih_SEVA</a>
+               </div>
+               <!-- <div class="modal-footer">
+                   <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                   <button type="button" class="btn btn-primary">Save changes</button>
+               </div> -->
+           </div>
+       </div>
+   </div>
+
+
    <section class="home_home" id="home">
        <div class="container">
            <div class="row flex_change">
@@ -607,65 +628,65 @@
        </div>
    </section>
    <section class="testi_monial my-3">
-    <!-- <div class="testi_monial"> -->
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="header">
-                    <h1 class="text-center">What our Customer Say ?</h1>
-                    <p class="text-center">Customer Experiences with Thee Manager</p>
-                    </div>
-                    <div class="testimonial">
-                        <div class="owl_testimonial owl-carousel owl-theme">
-                            <div class="card">
-                                <div class="logo">
-                                    <img src="images/man.png" alt="">
-                                </div>
-                                <p class="text-center"><span>“</span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque labore inventore rerum? Beatae, repellat corrupti Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur? <span>„</span></p>
-                                <h5>Name Here</h5>
-                                <div class="stars">
-                                    <i class="fa-sharp fa-solid fa-star"></i>
-                                    <i class="fa-sharp fa-solid fa-star"></i>
-                                    <i class="fa-sharp fa-solid fa-star"></i>
-                                    <i class="fa-sharp fa-solid fa-star"></i>
-                                    <i class="fa-sharp fa-solid fa-star"></i>
-                                </div>
-                            </div>
-                            <div class="card">
-                                <div class="logo">
-                                    <img src="images/man.png" alt="">
-                                </div>
-                                <p class="text-center"><span>“</span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque labore inventore rerum? Beatae, repellat corrupti Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur? <span>„</span></p>
-                                <h5>Name Here</h5>
-                                <div class="stars">
-                                    <i class="fa-sharp fa-solid fa-star"></i>
-                                    <i class="fa-sharp fa-solid fa-star"></i>
-                                    <i class="fa-sharp fa-solid fa-star"></i>
-                                    <i class="fa-sharp fa-solid fa-star"></i>
-                                    <i class="fa-sharp fa-solid fa-star"></i>
-                                </div>
-                            </div>
-                            <div class="card">
-                                <div class="logo">
-                                    <img src="images/man.png" alt="">
-                                </div>
-                                <p class="text-center p-0"><span>“</span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque labore inventore rerum? Beatae, repellat corrupti Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur?<span>„</span></p>
-                                <h5>Name Here</h5>
-                                <div class="stars">
-                                    <i class="fa-sharp fa-solid fa-star"></i>
-                                    <i class="fa-sharp fa-solid fa-star"></i>
-                                    <i class="fa-sharp fa-solid fa-star"></i>
-                                    <i class="fa-sharp fa-solid fa-star"></i>
-                                    <i class="fa-sharp fa-solid fa-star"></i>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    <!-- </div> -->
-</section>
+       <!-- <div class="testi_monial"> -->
+       <div class="container">
+           <div class="row">
+               <div class="col-md-12">
+                   <div class="header">
+                       <h1 class="text-center">What our Customer Say ?</h1>
+                       <p class="text-center">Customer Experiences with Thee Manager</p>
+                   </div>
+                   <div class="testimonial">
+                       <div class="owl_testimonial owl-carousel owl-theme">
+                           <div class="card">
+                               <div class="logo">
+                                   <img src="images/man.png" alt="">
+                               </div>
+                               <p class="text-center"><span>“</span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque labore inventore rerum? Beatae, repellat corrupti Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur? <span>„</span></p>
+                               <h5>Name Here</h5>
+                               <div class="stars">
+                                   <i class="fa-sharp fa-solid fa-star"></i>
+                                   <i class="fa-sharp fa-solid fa-star"></i>
+                                   <i class="fa-sharp fa-solid fa-star"></i>
+                                   <i class="fa-sharp fa-solid fa-star"></i>
+                                   <i class="fa-sharp fa-solid fa-star"></i>
+                               </div>
+                           </div>
+                           <div class="card">
+                               <div class="logo">
+                                   <img src="images/man.png" alt="">
+                               </div>
+                               <p class="text-center"><span>“</span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque labore inventore rerum? Beatae, repellat corrupti Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur? <span>„</span></p>
+                               <h5>Name Here</h5>
+                               <div class="stars">
+                                   <i class="fa-sharp fa-solid fa-star"></i>
+                                   <i class="fa-sharp fa-solid fa-star"></i>
+                                   <i class="fa-sharp fa-solid fa-star"></i>
+                                   <i class="fa-sharp fa-solid fa-star"></i>
+                                   <i class="fa-sharp fa-solid fa-star"></i>
+                               </div>
+                           </div>
+                           <div class="card">
+                               <div class="logo">
+                                   <img src="images/man.png" alt="">
+                               </div>
+                               <p class="text-center p-0"><span>“</span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque labore inventore rerum? Beatae, repellat corrupti Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur?<span>„</span></p>
+                               <h5>Name Here</h5>
+                               <div class="stars">
+                                   <i class="fa-sharp fa-solid fa-star"></i>
+                                   <i class="fa-sharp fa-solid fa-star"></i>
+                                   <i class="fa-sharp fa-solid fa-star"></i>
+                                   <i class="fa-sharp fa-solid fa-star"></i>
+                                   <i class="fa-sharp fa-solid fa-star"></i>
+                               </div>
+                           </div>
+                       </div>
+                   </div>
+               </div>
+           </div>
+       </div>
+       <!-- </div> -->
+   </section>
    <section class="footer">
        <div class="container">
            <div class="row">
