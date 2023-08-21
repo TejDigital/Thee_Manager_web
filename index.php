@@ -189,6 +189,18 @@
                    <div class="row">
                        <div class="col-md-4">
                            <div class="box">
+                               <h3>Visa Services/Immigrations </h3>
+                               <p>Hassle-free assistance with visa applications and immigration procedures.</p>
+                           </div>
+                       </div>
+                       <div class="col-md-4">
+                           <div class="box">
+                               <h3>Education Tourism </h3>
+                               <p>Specialized education travel solutions to unlock global educational opportunities.</p>
+                           </div>
+                       </div>
+                       <div class="col-md-4">
+                           <div class="box">
                                <h3>Corporate Tourism </h3>
                                <p>Unique and well-organized corporate travel experiences for team outings, offsite meetings, and conferences.</p>
                            </div>
@@ -203,18 +215,6 @@
                            <div class="box">
                                <h3> Medical Tourism</h3>
                                <p>Seamless arrangements for world-class healthcare services and treatments, combining medical needs with leisure travel.</p>
-                           </div>
-                       </div>
-                       <div class="col-md-4">
-                           <div class="box">
-                               <h3>Visa Services/Immigrations </h3>
-                               <p>Hassle-free assistance with visa applications and immigration procedures.</p>
-                           </div>
-                       </div>
-                       <div class="col-md-4">
-                           <div class="box">
-                               <h3>Education Tourism </h3>
-                               <p>Specialized education travel solutions to unlock global educational opportunities.</p>
                            </div>
                        </div>
                        <div class="col-md-4">
@@ -264,32 +264,8 @@
                    <div class="row">
                        <div class="col-md-4">
                            <div class="box">
-                               <h3>Consulting </h3>
-                               <p>Expert advice and guidance to enhance business operations and guest experiences..</p>
-                           </div>
-                       </div>
-                       <div class="col-md-4">
-                           <div class="box">
-                               <h3>Trainings</h3>
-                               <p>Customized hospitality training programs to elevate staff skills and knowledge.</p>
-                           </div>
-                       </div>
-                       <div class="col-md-4">
-                           <div class="box">
-                               <h3> Recruitment</h3>
-                               <p>Efficiently find the right talent for your hospitality establishment.</p>
-                           </div>
-                       </div>
-                       <div class="col-md-4">
-                           <div class="box">
                                <h3>Set-up / Pre-opening</h3>
                                <p>Expert assistance in setting up and pre-opening hospitality ventures.</p>
-                           </div>
-                       </div>
-                       <div class="col-md-4">
-                           <div class="box">
-                               <h3>Sales & Marketing</h3>
-                               <p>Targeted strategies to boost business growth.</p>
                            </div>
                        </div>
                        <div class="col-md-4">
@@ -300,8 +276,32 @@
                        </div>
                        <div class="col-md-4">
                            <div class="box">
+                               <h3>Consulting </h3>
+                               <p>Expert advice and guidance to enhance business operations and guest experiences..</p>
+                           </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="box">
+                                <h3> Recruitment</h3>
+                                <p>Efficiently find the right talent for your hospitality establishment.</p>
+                            </div>
+                        </div>
+                       <div class="col-md-4">
+                           <div class="box">
+                               <h3>Trainings</h3>
+                               <p>Customized hospitality training programs to elevate staff skills and knowledge.</p>
+                           </div>
+                       </div>
+                       <div class="col-md-4">
+                           <div class="box">
                                <h3>Facility Management / Housekeeping</h3>
                                <p>Ensuring smooth facility operations and impeccable housekeeping services.</p>
+                           </div>
+                       </div>
+                       <div class="col-md-4">
+                           <div class="box">
+                               <h3>Sales & Marketing</h3>
+                               <p>Targeted strategies to boost business growth.</p>
                            </div>
                        </div>
                    </div>
@@ -345,14 +345,8 @@
                    <div class="row">
                        <div class="col-md-4">
                            <div class="box">
-                               <h3>International Education </h3>
-                               <p>Comprehensive support for overseas education, including test preparation, counseling, profile building, interview preparation,  loans & finance, admissions and visa assistance.</p>
-                           </div>
-                       </div>
-                       <div class="col-md-4">
-                           <div class="box">
-                               <h3>Domestic Education</h3>
-                               <p>Guidance and admission support for Indian universities, along with outreach programs for enhanced educational opportunities.</p>
+                               <h3>Institution Setup</h3>
+                               <p>Assistance in setting up educational institutions, including sales, marketing, and institutional tie-ups.</p>
                            </div>
                        </div>
                        <div class="col-md-4">
@@ -363,8 +357,14 @@
                        </div>
                        <div class="col-md-4">
                            <div class="box">
-                               <h3>Institution Setup</h3>
-                               <p>Assistance in setting up educational institutions, including sales, marketing, and institutional tie-ups.</p>
+                               <h3>International Education </h3>
+                               <p>Comprehensive support for overseas education, including test preparation, counseling, profile building, interview preparation,  loans & finance, admissions and visa assistance.</p>
+                           </div>
+                       </div>
+                       <div class="col-md-4">
+                           <div class="box">
+                               <h3>Domestic Education</h3>
+                               <p>Guidance and admission support for Indian universities, along with outreach programs for enhanced educational opportunities.</p>
                            </div>
                        </div>
                        <div class="col-md-4">
@@ -426,14 +426,14 @@
                    <div class="row">
                        <div class="col-md-4">
                            <div class="box">
-                               <h3>Corporate Events & Networking</h3>
-                               <p>Impactful corporate events and networking opportunities for fostering professional connections.</p>
+                               <h3>ATL & BTL Marketing & Events</h3>
+                               <p>Promoting products and services through Above the Line (ATL) and Below the Line (BTL) marketing activities.</p>
                            </div>
                        </div>
                        <div class="col-md-4">
                            <div class="box">
-                               <h3>MICE</h3>
-                               <p>International Education (test prep, counselling, profile building, interview preparation, visa assistance, loans & finance, admissions)</p>
+                               <h3>Government Events, Product & Service Launch</h3>
+                               <p>Efficient planning and execution of government events and product or service launches.</p>
                            </div>
                        </div>
                        <div class="col-md-4">
@@ -444,14 +444,26 @@
                        </div>
                        <div class="col-md-4">
                            <div class="box">
+                               <h3>Corporate Events & Networking</h3>
+                               <p>Impactful corporate events and networking opportunities for fostering professional connections.</p>
+                           </div>
+                       </div>
+                       <div class="col-md-4">
+                           <div class="box">
                                <h3>Concerts & Celebrity Management</h3>
                                <p>Event arrangements and celebrity management for unforgettable experiences.</p>
                            </div>
                        </div>
                        <div class="col-md-4">
                            <div class="box">
-                               <h3>ATL & BTL Marketing & Events</h3>
-                               <p>Promoting products and services through Above the Line (ATL) and Below the Line (BTL) marketing activities.</p>
+                               <h3>Day Events with Catering</h3>
+                               <p>Catering services for both alcoholic and non-alcoholic events, ensuring delightful experiences.</p>
+                           </div>
+                       </div>
+                       <div class="col-md-4">
+                           <div class="box">
+                               <h3>MICE</h3>
+                               <p>International Education (test prep, counselling, profile building, interview preparation, visa assistance, loans & finance, admissions)</p>
                            </div>
                        </div>
                        <div class="col-md-4">
@@ -464,18 +476,6 @@
                            <div class="box">
                                <h3>Budget Weddings</h3>
                                <p>Organizing budget-friendly weddings without compromising on quality and style.</p>
-                           </div>
-                       </div>
-                       <div class="col-md-4">
-                           <div class="box">
-                               <h3>Day Events with Catering</h3>
-                               <p>Catering services for both alcoholic and non-alcoholic events, ensuring delightful experiences.</p>
-                           </div>
-                       </div>
-                       <div class="col-md-4">
-                           <div class="box">
-                               <h3>Government Events, Product & Service Launch</h3>
-                               <p>Efficient planning and execution of government events and product or service launches.</p>
                            </div>
                        </div>
                    </div>
@@ -582,14 +582,14 @@
                                    <h2><span class="me-2"> <i class="fa-solid fa-phone-volume"></i></span>Phone</h2>
                                    <p class="d-flex aline-items-center justify-content-center flex-column">
                                        <span> <a href="tel:9876543210 ">+91 98765 43210 </a></span>
-                                       <span> <a href="#">+91 2XXXX 4XXXX </a></span>
+                                       <span> <a href="tel:7223985533">+91 722 3985 533 </a></span>
                                    </p>
                                </div>
                            </div>
                            <div class="col-md-6">
                                <div class="text_box">
                                    <h2><span class="me-2"><i class="fa-regular fa-envelope"></i></span>Mail</h2>
-                                   <span> <a href="mailto:info.theemanager@gmail.com">info.theemanager@gmail.com</a></span>
+                                   <span> <a href="mailto:theemanager@gmail.com">theemanager@gmail.com</a></span>
                                </div>
                            </div>
                        </div>
