@@ -59,7 +59,7 @@
                <div class="col-md-4 p-1">
                    <div class="box">
                        <h3><span class="me-2"><i class="fa-solid fa-chart-pie"></i></span>Value</h3>
-                       <p>To be the leading and most trusted company, known for excellence, integrity, and customer-centricity in our industries.</p>
+                       <p>Excellence, Integrity, Customer-Centricity, Innovation, Teamwork, Social Responsibility, Passion, Reliability, Respect, Growth-Oriented.</p>
                    </div>
                </div>
            </div>
@@ -574,7 +574,7 @@
                            <div class="col-md-6">
                                <div class="text_box">
                                    <h2><span class="me-2"><i class="fa-solid fa-location-dot"></i></span>Address</h2>
-                                   <span>123, street name, city name, country name, 2XXXXX</span>
+                                   <span onclick="myloc()" style="cursor: pointer;">Smriti Nagar Bhilai</span>
                                </div>
                            </div>
                            <div class="col-md-6">
@@ -642,8 +642,8 @@
                                <div class="logo">
                                    <img src="images/man.png" alt="">
                                </div>
-                               <p class="text-center"><span>“</span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque labore inventore rerum? Beatae, repellat corrupti Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur? <span>„</span></p>
-                               <h5>Name Here</h5>
+                               <p class="text-center"><span>“</span>THEE Manager has truly redefined excellence in Tourism, Hospitality, Education, and Events services. Their seasoned team's 15 years of expertise shines through their innovative solutions. A trustworthy partner for anyone seeking top-tier results. <span>„</span></p>
+                               <h5>Naman Deshmukh</h5>
                                <div class="stars">
                                    <i class="fa-sharp fa-solid fa-star"></i>
                                    <i class="fa-sharp fa-solid fa-star"></i>
@@ -656,8 +656,8 @@
                                <div class="logo">
                                    <img src="images/man.png" alt="">
                                </div>
-                               <p class="text-center"><span>“</span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque labore inventore rerum? Beatae, repellat corrupti Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur? <span>„</span></p>
-                               <h5>Name Here</h5>
+                               <p class="text-center"><span>“</span>Thee Manager has truly been a game-changer for us! Their expertise in Tourism, Hospitality, Education, and Events is unparalleled. Their team's 15+ years of experience shines through in their innovative solutions. A reliable partner for success! <span>„</span></p>
+                               <h5>Avinash Singh</h5>
                                <div class="stars">
                                    <i class="fa-sharp fa-solid fa-star"></i>
                                    <i class="fa-sharp fa-solid fa-star"></i>
@@ -670,8 +670,8 @@
                                <div class="logo">
                                    <img src="images/man.png" alt="">
                                </div>
-                               <p class="text-center p-0"><span>“</span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque labore inventore rerum? Beatae, repellat corrupti Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur?<span>„</span></p>
-                               <h5>Name Here</h5>
+                               <p class="text-center p-0"><span>“</span>Thee Manager has truly been a game-changer for our business. Their expertise in Tourism, Hospitality, Education, and Events is unmatched. Their proven strategies and commitment to innovative solutions have made a significant impact. Highly recommended!<span>„</span></p>
+                               <h5>Danish Gupta</h5>
                                <div class="stars">
                                    <i class="fa-sharp fa-solid fa-star"></i>
                                    <i class="fa-sharp fa-solid fa-star"></i>

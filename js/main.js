@@ -12,6 +12,10 @@ $(function () {
     });
   });
   
+  //----------------------Location-----------------------------
+  function myloc(){
+    location.href = "https://goo.gl/maps/AYNsUdzvFX7kneCx6";
+  }
   // --------------------------------Active-link-Navbar--------------------
   // const currentlink = location.href;
   // const menuitems = document.getElementsByClassName("nav-link");

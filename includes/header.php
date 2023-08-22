@@ -27,8 +27,8 @@
                                     <p class="m-0 none_display"><a href="tel:9876543210 "> <span class="pe-1"> <i class="fa-solid fa-phone-volume"></i></span></a></p>
                                 </div>
                                 <div class="div top_nav_item px-2">
-                                    <p class="m-0 view_display"> <a href="mailto:info.theemanager@gmail.com "> <span class="pe-1"> <i class="fa-regular fa-envelope"></i></span> info.theemanager@gmail.com </a></p>
-                                    <p class="m-0 none_display"> <a href="mailto:info.theemanager@gmail.com "> <span class="pe-1"> <i class="fa-regular fa-envelope"></i></span> </a></p>
+                                    <p class="m-0 view_display"> <a href="mailto:theemanager@gmail.com "> <span class="pe-1"> <i class="fa-regular fa-envelope"></i></span>theemanager@gmail.com </a></p>
+                                    <p class="m-0 none_display"> <a href="mailto:theemanager@gmail.com "> <span class="pe-1"> <i class="fa-regular fa-envelope"></i></span> </a></p>
                                 </div>
                             </div>
                             <div class="top_nav_social d-flex align-items-center justify-content-evenly gap-4">
