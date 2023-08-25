@@ -581,7 +581,7 @@
                                <div class="text_box">
                                    <h2><span class="me-2"> <i class="fa-solid fa-phone-volume"></i></span>Phone</h2>
                                    <p class="d-flex aline-items-center justify-content-center flex-column">
-                                       <span> <a href="tel:9876543210 ">+91 98765 43210 </a></span>
+                                       <!-- <span> <a href="tel:9876543210 ">+91 98765 43210 </a></span> -->
                                        <span> <a href="tel:7223985533">+91 722 3985 533 </a></span>
                                    </p>
                                </div>
